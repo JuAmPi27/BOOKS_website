@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Sigmar+One&family=Sniglet:wght@400;800&display=swap');
 
 :root {
     --Sniglet-font: 'Sniglet', cursive;
@@ -20,10 +20,20 @@ header {
     background: var(--bggradient);
 }
 
+header .fixed-top {
+    background: var(--bggradient);
+    border-bottom: 1px solid #333;
+}
+
 header a {
     font-family: var(--Sniglet-font);
     font-size: 0.9em;
     color: whitesmoke;
+}
+
+header h3 {
+    font-family: var(--Rubik);
+    color: #333;
 }
 
 header, 
@@ -41,6 +51,7 @@ header .nav-item {
 
 header .navbar-brand {
     padding-left: 8rem;
+    letter-spacing: 4px;
 }
 
 header .nav-link:hover {
@@ -59,7 +70,8 @@ header .row .col-md-7 {
 }
 
 header .row .col-md-5 img {
-    width: 90%;
+    width: 80%;
+    padding-top: 50px;
 }
 
 header .container .col-md-7 h6 {
@@ -325,7 +337,8 @@ header .container .col-md-7 button {
 footer {
     background: rgba(0, 0, 0, 0.815);
     overflow-x: hidden;
-    padding: 14vmin 18vmin;
+    padding: 8vmin;
+    font-size: 15px;
 }
 
 footer input {
@@ -345,6 +358,23 @@ footer .column i {
     color: #dd2476;
     margin-right: 15px;
 }
+
+footer .row .col-md-5 {
+    text-align: center;
+}
+
+footer .row .col-md-5:nth-child(2) {
+    padding-top: 35px;
+}
+
+footer .row .col-md-2 {
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+
+
+
 
 
 
